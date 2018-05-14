@@ -340,6 +340,7 @@ defaults write com.apple.dt.Xcode ShowBuildOperationDuration YES
 XCode的pch文件是预编译文件，这里的内容在执行XCode build之前就已经被预编译，并且引入到每一个.m文件里了。
 
 3)编译器选项优化
+
 3.1)Debug模式下，不生成dsym文件
 
 上文提到了，dysm文件里存储了调试信息，在Debug模式下，我们可以借助XCode和LLDB进行调试。所以，不需要生成额外的dsym文件来降低编译速度。
