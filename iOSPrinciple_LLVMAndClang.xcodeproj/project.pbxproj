@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		326B3CBD1A8546AC988F7347 /* libPods-iOSPrinciple_LLVMAndClang Debug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FEB38278AFE5E90DD5D257A4 /* libPods-iOSPrinciple_LLVMAndClang Debug.a */; };
 		345227F220A95281003C23BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 345227F120A95281003C23BD /* AppDelegate.m */; };
 		345227F520A95281003C23BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 345227F420A95281003C23BD /* ViewController.m */; };
 		345227F820A95281003C23BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 345227F620A95281003C23BD /* Main.storyboard */; };
@@ -15,6 +16,15 @@
 		3452280020A9528A003C23BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 345227FF20A9528A003C23BD /* main.m */; };
 		3452280A20A9528A003C23BD /* iOSPrinciple_LLVMAndClangTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3452280920A9528A003C23BD /* iOSPrinciple_LLVMAndClangTests.m */; };
 		3452281520A9528A003C23BD /* iOSPrinciple_LLVMAndClangUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3452281420A9528A003C23BD /* iOSPrinciple_LLVMAndClangUITests.m */; };
+		3452282420A95356003C23BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 345227F420A95281003C23BD /* ViewController.m */; };
+		3452282520A95356003C23BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 345227FF20A9528A003C23BD /* main.m */; };
+		3452282620A95356003C23BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 345227F120A95281003C23BD /* AppDelegate.m */; };
+		3452282920A95356003C23BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 345227FB20A9528A003C23BD /* LaunchScreen.storyboard */; };
+		3452282A20A95356003C23BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 345227F920A9528A003C23BD /* Assets.xcassets */; };
+		3452282B20A95356003C23BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 345227F620A95281003C23BD /* Main.storyboard */; };
+		8FB3974D4DF65DDF94801508 /* libPods-iOSPrinciple_LLVMAndClangTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A2DBF6891404C421E667487 /* libPods-iOSPrinciple_LLVMAndClangTests.a */; };
+		D97B41B959B908F6EA38827D /* libPods-iOSPrinciple_LLVMAndClangUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7243E469DC3F34E5330C8A60 /* libPods-iOSPrinciple_LLVMAndClangUITests.a */; };
+		E0685DB2A865015B7D0A009C /* libPods-iOSPrinciple_LLVMAndClang.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1683E4EEED8F46E95E25371 /* libPods-iOSPrinciple_LLVMAndClang.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C58440CA879DD2EC27ECE43 /* Pods-iOSPrinciple_LLVMAndClangTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSPrinciple_LLVMAndClangTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSPrinciple_LLVMAndClangTests/Pods-iOSPrinciple_LLVMAndClangTests.release.xcconfig"; sourceTree = "<group>"; };
+		241C14A1A09AE658EA024F73 /* Pods-iOSPrinciple_LLVMAndClang Debug.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSPrinciple_LLVMAndClang Debug.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSPrinciple_LLVMAndClang Debug/Pods-iOSPrinciple_LLVMAndClang Debug.debug.xcconfig"; sourceTree = "<group>"; };
 		345227ED20A95281003C23BD /* iOSPrinciple_LLVMAndClang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSPrinciple_LLVMAndClang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		345227F020A95281003C23BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		345227F120A95281003C23BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +63,18 @@
 		3452281020A9528A003C23BD /* iOSPrinciple_LLVMAndClangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSPrinciple_LLVMAndClangUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3452281420A9528A003C23BD /* iOSPrinciple_LLVMAndClangUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSPrinciple_LLVMAndClangUITests.m; sourceTree = "<group>"; };
 		3452281620A9528A003C23BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3452282F20A95356003C23BD /* iOSPrinciple_LLVMAndClang Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOSPrinciple_LLVMAndClang Debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3452283020A95356003C23BD /* iOSPrinciple_LLVMAndClang copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "iOSPrinciple_LLVMAndClang copy-Info.plist"; path = "/Users/Stevens/iOSPrinciple_LLVMAndClang/iOSPrinciple_LLVMAndClang copy-Info.plist"; sourceTree = "<absolute>"; };
+		5F20E6020C1ED50035A06B7E /* Pods-iOSPrinciple_LLVMAndClangUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSPrinciple_LLVMAndClangUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSPrinciple_LLVMAndClangUITests/Pods-iOSPrinciple_LLVMAndClangUITests.release.xcconfig"; sourceTree = "<group>"; };
+		60A275C11C9309E560C402D9 /* Pods-iOSPrinciple_LLVMAndClang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSPrinciple_LLVMAndClang.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSPrinciple_LLVMAndClang/Pods-iOSPrinciple_LLVMAndClang.release.xcconfig"; sourceTree = "<group>"; };
+		6A2DBF6891404C421E667487 /* libPods-iOSPrinciple_LLVMAndClangTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSPrinciple_LLVMAndClangTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7243E469DC3F34E5330C8A60 /* libPods-iOSPrinciple_LLVMAndClangUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSPrinciple_LLVMAndClangUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1683E4EEED8F46E95E25371 /* libPods-iOSPrinciple_LLVMAndClang.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSPrinciple_LLVMAndClang.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C79384FE3A72F8227439D5C8 /* Pods-iOSPrinciple_LLVMAndClang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSPrinciple_LLVMAndClang.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSPrinciple_LLVMAndClang/Pods-iOSPrinciple_LLVMAndClang.debug.xcconfig"; sourceTree = "<group>"; };
+		D7A595CE0F4D58C92E79E0CD /* Pods-iOSPrinciple_LLVMAndClangUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSPrinciple_LLVMAndClangUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSPrinciple_LLVMAndClangUITests/Pods-iOSPrinciple_LLVMAndClangUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED27DA749E8A5033D9C96182 /* Pods-iOSPrinciple_LLVMAndClang Debug.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSPrinciple_LLVMAndClang Debug.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSPrinciple_LLVMAndClang Debug/Pods-iOSPrinciple_LLVMAndClang Debug.release.xcconfig"; sourceTree = "<group>"; };
+		EF1CBD7AB34B077D7C141931 /* Pods-iOSPrinciple_LLVMAndClangTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSPrinciple_LLVMAndClangTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSPrinciple_LLVMAndClangTests/Pods-iOSPrinciple_LLVMAndClangTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FEB38278AFE5E90DD5D257A4 /* libPods-iOSPrinciple_LLVMAndClang Debug.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSPrinciple_LLVMAndClang Debug.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0685DB2A865015B7D0A009C /* libPods-iOSPrinciple_LLVMAndClang.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FB3974D4DF65DDF94801508 /* libPods-iOSPrinciple_LLVMAndClangTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +98,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D97B41B959B908F6EA38827D /* libPods-iOSPrinciple_LLVMAndClangUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3452282720A95356003C23BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				326B3CBD1A8546AC988F7347 /* libPods-iOSPrinciple_LLVMAndClang Debug.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		309A311A2545E48645AD676E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1683E4EEED8F46E95E25371 /* libPods-iOSPrinciple_LLVMAndClang.a */,
+				FEB38278AFE5E90DD5D257A4 /* libPods-iOSPrinciple_LLVMAndClang Debug.a */,
+				6A2DBF6891404C421E667487 /* libPods-iOSPrinciple_LLVMAndClangTests.a */,
+				7243E469DC3F34E5330C8A60 /* libPods-iOSPrinciple_LLVMAndClangUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		345227E420A95280003C23BD = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +131,9 @@
 				3452280820A9528A003C23BD /* iOSPrinciple_LLVMAndClangTests */,
 				3452281320A9528A003C23BD /* iOSPrinciple_LLVMAndClangUITests */,
 				345227EE20A95281003C23BD /* Products */,
+				3452283020A95356003C23BD /* iOSPrinciple_LLVMAndClang copy-Info.plist */,
+				3D06853C134B12C400308E7D /* Pods */,
+				309A311A2545E48645AD676E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +143,7 @@
 				345227ED20A95281003C23BD /* iOSPrinciple_LLVMAndClang.app */,
 				3452280520A9528A003C23BD /* iOSPrinciple_LLVMAndClangTests.xctest */,
 				3452281020A9528A003C23BD /* iOSPrinciple_LLVMAndClangUITests.xctest */,
+				3452282F20A95356003C23BD /* iOSPrinciple_LLVMAndClang Debug.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,6 +182,21 @@
 			path = iOSPrinciple_LLVMAndClangUITests;
 			sourceTree = "<group>";
 		};
+		3D06853C134B12C400308E7D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C79384FE3A72F8227439D5C8 /* Pods-iOSPrinciple_LLVMAndClang.debug.xcconfig */,
+				60A275C11C9309E560C402D9 /* Pods-iOSPrinciple_LLVMAndClang.release.xcconfig */,
+				241C14A1A09AE658EA024F73 /* Pods-iOSPrinciple_LLVMAndClang Debug.debug.xcconfig */,
+				ED27DA749E8A5033D9C96182 /* Pods-iOSPrinciple_LLVMAndClang Debug.release.xcconfig */,
+				EF1CBD7AB34B077D7C141931 /* Pods-iOSPrinciple_LLVMAndClangTests.debug.xcconfig */,
+				1C58440CA879DD2EC27ECE43 /* Pods-iOSPrinciple_LLVMAndClangTests.release.xcconfig */,
+				D7A595CE0F4D58C92E79E0CD /* Pods-iOSPrinciple_LLVMAndClangUITests.debug.xcconfig */,
+				5F20E6020C1ED50035A06B7E /* Pods-iOSPrinciple_LLVMAndClangUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +204,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3452281920A9528A003C23BD /* Build configuration list for PBXNativeTarget "iOSPrinciple_LLVMAndClang" */;
 			buildPhases = (
+				76AB7177E0479044AA613997 /* [CP] Check Pods Manifest.lock */,
 				345227E920A95281003C23BD /* Sources */,
 				345227EA20A95281003C23BD /* Frameworks */,
+				3452283120A95596003C23BD /* Auto Increase build number */,
 				345227EB20A95281003C23BD /* Resources */,
+				901E5B1301E68978205F2434 /* [CP] Embed Pods Frameworks */,
+				88DC42133F3AFFECB99C66C4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3452281C20A9528A003C23BD /* Build configuration list for PBXNativeTarget "iOSPrinciple_LLVMAndClangTests" */;
 			buildPhases = (
+				FF6EC50FABBC6EE4C0F10346 /* [CP] Check Pods Manifest.lock */,
 				3452280120A9528A003C23BD /* Sources */,
 				3452280220A9528A003C23BD /* Frameworks */,
 				3452280320A9528A003C23BD /* Resources */,
+				D4D53B7501FAB42BCD5A8456 /* [CP] Embed Pods Frameworks */,
+				CD45A0F693E1AD9E4080C9D4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,9 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3452281F20A9528A003C23BD /* Build configuration list for PBXNativeTarget "iOSPrinciple_LLVMAndClangUITests" */;
 			buildPhases = (
+				E3322F50ED2005C327D5B5BA /* [CP] Check Pods Manifest.lock */,
 				3452280C20A9528A003C23BD /* Sources */,
 				3452280D20A9528A003C23BD /* Frameworks */,
 				3452280E20A9528A003C23BD /* Resources */,
+				9EA540032A7200D45001CD8F /* [CP] Embed Pods Frameworks */,
+				6002C38AADD6C0DC11B57745 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,6 +262,26 @@
 			productName = iOSPrinciple_LLVMAndClangUITests;
 			productReference = 3452281020A9528A003C23BD /* iOSPrinciple_LLVMAndClangUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		3452282220A95356003C23BD /* iOSPrinciple_LLVMAndClang Debug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3452282C20A95356003C23BD /* Build configuration list for PBXNativeTarget "iOSPrinciple_LLVMAndClang Debug" */;
+			buildPhases = (
+				325C2E86A5541119E1B1F20F /* [CP] Check Pods Manifest.lock */,
+				3452282320A95356003C23BD /* Sources */,
+				3452282720A95356003C23BD /* Frameworks */,
+				3452282820A95356003C23BD /* Resources */,
+				CE6BEE42C8D49BCCE3B08158 /* [CP] Embed Pods Frameworks */,
+				BB3F0CA987CF396C48B2F15A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOSPrinciple_LLVMAndClang Debug";
+			productName = iOSPrinciple_LLVMAndClang;
+			productReference = 3452282F20A95356003C23BD /* iOSPrinciple_LLVMAndClang Debug.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -224,6 +319,7 @@
 			projectRoot = "";
 			targets = (
 				345227EC20A95281003C23BD /* iOSPrinciple_LLVMAndClang */,
+				3452282220A95356003C23BD /* iOSPrinciple_LLVMAndClang Debug */,
 				3452280420A9528A003C23BD /* iOSPrinciple_LLVMAndClangTests */,
 				3452280F20A9528A003C23BD /* iOSPrinciple_LLVMAndClangUITests */,
 			);
@@ -255,7 +351,226 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3452282820A95356003C23BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3452282920A95356003C23BD /* LaunchScreen.storyboard in Resources */,
+				3452282A20A95356003C23BD /* Assets.xcassets in Resources */,
+				3452282B20A95356003C23BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		325C2E86A5541119E1B1F20F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSPrinciple_LLVMAndClang Debug-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3452283120A95596003C23BD /* Auto Increase build number */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Auto Increase build number";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"";
+		};
+		6002C38AADD6C0DC11B57745 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSPrinciple_LLVMAndClangUITests/Pods-iOSPrinciple_LLVMAndClangUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76AB7177E0479044AA613997 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSPrinciple_LLVMAndClang-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88DC42133F3AFFECB99C66C4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSPrinciple_LLVMAndClang/Pods-iOSPrinciple_LLVMAndClang-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		901E5B1301E68978205F2434 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSPrinciple_LLVMAndClang/Pods-iOSPrinciple_LLVMAndClang-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EA540032A7200D45001CD8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSPrinciple_LLVMAndClangUITests/Pods-iOSPrinciple_LLVMAndClangUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB3F0CA987CF396C48B2F15A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSPrinciple_LLVMAndClang Debug/Pods-iOSPrinciple_LLVMAndClang Debug-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD45A0F693E1AD9E4080C9D4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSPrinciple_LLVMAndClangTests/Pods-iOSPrinciple_LLVMAndClangTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE6BEE42C8D49BCCE3B08158 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSPrinciple_LLVMAndClang Debug/Pods-iOSPrinciple_LLVMAndClang Debug-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4D53B7501FAB42BCD5A8456 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSPrinciple_LLVMAndClangTests/Pods-iOSPrinciple_LLVMAndClangTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3322F50ED2005C327D5B5BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSPrinciple_LLVMAndClangUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF6EC50FABBC6EE4C0F10346 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSPrinciple_LLVMAndClangTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		345227E920A95281003C23BD /* Sources */ = {
@@ -281,6 +596,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				3452281520A9528A003C23BD /* iOSPrinciple_LLVMAndClangUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3452282320A95356003C23BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3452282420A95356003C23BD /* ViewController.m in Sources */,
+				3452282520A95356003C23BD /* main.m in Sources */,
+				3452282620A95356003C23BD /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +756,7 @@
 		};
 		3452281A20A9528A003C23BD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C79384FE3A72F8227439D5C8 /* Pods-iOSPrinciple_LLVMAndClang.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +773,7 @@
 		};
 		3452281B20A9528A003C23BD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60A275C11C9309E560C402D9 /* Pods-iOSPrinciple_LLVMAndClang.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -463,6 +790,7 @@
 		};
 		3452281D20A9528A003C23BD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF1CBD7AB34B077D7C141931 /* Pods-iOSPrinciple_LLVMAndClangTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -481,6 +809,7 @@
 		};
 		3452281E20A9528A003C23BD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C58440CA879DD2EC27ECE43 /* Pods-iOSPrinciple_LLVMAndClangTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +828,7 @@
 		};
 		3452282020A9528A003C23BD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7A595CE0F4D58C92E79E0CD /* Pods-iOSPrinciple_LLVMAndClangUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = iOSPrinciple_LLVMAndClangUITests/Info.plist;
@@ -516,6 +846,7 @@
 		};
 		3452282120A9528A003C23BD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F20E6020C1ED50035A06B7E /* Pods-iOSPrinciple_LLVMAndClangUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = iOSPrinciple_LLVMAndClangUITests/Info.plist;
@@ -528,6 +859,40 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = iOSPrinciple_LLVMAndClang;
+			};
+			name = Release;
+		};
+		3452282D20A95356003C23BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 241C14A1A09AE658EA024F73 /* Pods-iOSPrinciple_LLVMAndClang Debug.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOSPrinciple_LLVMAndClang copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "R.S..iOSPrinciple-LLVMAndClang";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3452282E20A95356003C23BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED27DA749E8A5033D9C96182 /* Pods-iOSPrinciple_LLVMAndClang Debug.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOSPrinciple_LLVMAndClang copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "R.S..iOSPrinciple-LLVMAndClang";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -566,6 +931,15 @@
 			buildConfigurations = (
 				3452282020A9528A003C23BD /* Debug */,
 				3452282120A9528A003C23BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3452282C20A95356003C23BD /* Build configuration list for PBXNativeTarget "iOSPrinciple_LLVMAndClang Debug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3452282D20A95356003C23BD /* Debug */,
+				3452282E20A95356003C23BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

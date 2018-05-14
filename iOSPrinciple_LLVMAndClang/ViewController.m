@@ -16,13 +16,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    [self debugTest];
 }
 
+- (void)debugTest {
+#ifdef TESTMODE
+    //测试服务器相关的代码
+#else
+    //生产服务器相关代码
+#endif
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 
